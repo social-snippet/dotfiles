@@ -1,0 +1,3 @@
+src/.vim/
+!src/.vim/bundle/neobundle.vim/
+

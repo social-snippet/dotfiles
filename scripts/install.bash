@@ -22,6 +22,9 @@ DOTFILES=`cat << __END_DOTFILES__
 .vimrc
 .vim
 .vim.d
+
+.bashrc
+.bash.d
 __END_DOTFILES__`
 
 for dotfile in ${DOTFILES}; do
