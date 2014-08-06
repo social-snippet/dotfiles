@@ -1,4 +1,5 @@
 source ~/.vim.d/neobundle.vim
+source ~/.vim.d/neocomplete.vim
 
 syntax off
 
