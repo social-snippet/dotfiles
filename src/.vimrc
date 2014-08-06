@@ -1,3 +1,5 @@
+source ~/.vim.d/neobundle.vim
+
 syntax off
 
 set tabstop=2

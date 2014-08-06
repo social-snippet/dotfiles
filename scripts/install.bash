@@ -18,7 +18,11 @@ function copy_dotfile() {
   [[ ! -e ${dst} ]] && ln -s ${src} ${dst} && echo "create: ${dst}"
 }
 
-DOTFILES=(".vimrc")
+DOTFILES=`cat << __END_DOTFILES__
+.vimrc
+.vim
+.vim.d
+__END_DOTFILES__`
 
 for dotfile in ${DOTFILES}; do
   copy_dotfile ${dotfile}
