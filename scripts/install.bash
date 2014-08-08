@@ -25,6 +25,9 @@ DOTFILES=`cat << __END_DOTFILES__
 
 .bashrc
 .bash.d
+
+.tmux.conf
+.tmux.d
 __END_DOTFILES__`
 
 for dotfile in ${DOTFILES}; do
