@@ -15,6 +15,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " Note: You don't set neobundle setting in .gvimrc!
 NeoBundle 'Shougo/neocomplete.vim'
 NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'thinca/vim-quickrun'
 
 call neobundle#end()
 
