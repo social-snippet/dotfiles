@@ -1,3 +1,4 @@
 src/.vim/
 !src/.vim/bundle/neobundle.vim/
+src/.bash.d/pyenv.bash
 
