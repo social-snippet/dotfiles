@@ -9,12 +9,16 @@ set shiftwidth=2
 set nowrap
 set smarttab
 set expandtab
-set autoindent
-set smartindent
+
 set mouse=a
 set ttymouse=sgr
 set clipboard=unnamed,unnamedplus
+
 set number
 set relativenumber
 set hlsearch
 
+au BufNewFile,BufRead * set autoindent
+au BufNewFile,BufRead * set nosmartindent
+au BufNewFile,BufRead * set indentexpr=
+au BufNewFile,BufRead * set indentkeys=
