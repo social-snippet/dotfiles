@@ -3,4 +3,4 @@ src/.vim/
 src/.bash.d/pyenv.bash
 src/.bash.d/nodebrew.bash
 src/.bash.d/rbenv.bash
-
+src/.bash.d/ext/*.bash
