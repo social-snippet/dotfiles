@@ -16,6 +16,8 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'Shougo/neocomplete.vim'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'thinca/vim-quickrun'
+NeoBundle 'Shougo/unite.vim'
+NeoBundle 'Shougo/unite-outline'
 
 call neobundle#end()
 
