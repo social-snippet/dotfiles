@@ -2,7 +2,7 @@ for f in ~/.bash.d/*.bash; do
   source ${f}
 done
 
-for f in ~/.bash.d/ext/*.bash do
+for f in ~/.bash.d/ext/*.bash; do
   source ${f}
 done
 
